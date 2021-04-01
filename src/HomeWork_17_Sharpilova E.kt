@@ -5,8 +5,7 @@ fun main(){
 
 }
 
-fun accountInThreeYears(presentValue: Int, rate: Float, yearDep: Int ): Float {
-     val futureValue = presentValue * (1 + rate / 100).pow(yearDep).toFloat()
+fun accountInThreeYears(presentValue: Int, rate: Float, yearDep: Int): Float {
 
-    return futureValue
+    return presentValue * (1 + rate / 100).pow(yearDep).toFloat()
 }
